@@ -87,7 +87,7 @@ void Test() {
 					--(*countdown_ptr);
 				}
 			}
-		}//git@github.com:Manikgog / cpp - single - linked - list.git
+		}
 			// Присваивание элементов этого типа не требуется
 			ThrowOnCopy& operator=(const ThrowOnCopy& rhs) = delete;
 		// Адрес счётчика обратного отсчёта. Если не равен nullptr, то уменьшается при каждом копировании.
